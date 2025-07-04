@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tdod List</title>
+    <link rel="shortcut icon" href="task icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container mt-3 mb-3">
+        <h1>JavaScript Todo List 2 Project <img src="task icon.png" width="40px" height="auto"></h1>
+        <p>You can now add your tasks for today ✨!</p>
+        <div>
+            <form id="todoForm">
+                <div class="mt-2 mb-2">
+                    <label for="Ido" class="form-label">What you are doing today ?</label>
+                    <input type="text" id="Ido" placeholder="Tape anything ..." class="form-control bg-dark text-light">
+                </div>
+                <div class="mt-2 mb-2">
+                    <label for="todoDate" class="form-label">Date</label>
+                    <input type="date" id="todoDate" class="form-control bg-dark text-light">
+                </div>
+                <button type="submit" class="btn w-100">Add</button>
+            </form>
+            <div class="js-item mt-3 mb-3"></div>
+        </div>
+    </div>
+
+    <script src="todo-list.js"></script>
+
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
